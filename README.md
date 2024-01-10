@@ -3,10 +3,12 @@
 Some classes from `dart.ui` that run on pure Dart.
 
 - Color
+- Offset
 - Rect
 - Size
 
-- Offset
+- clampDouble
+- lerpDouble()
 
 ## Getting started
 
