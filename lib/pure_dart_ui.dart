@@ -1,6 +1,6 @@
 library pure_dart_ui;
 
-import 'dart:math' show atan2, cos, max, min, pow, sin, sqrt;
+import 'dart:math' as math;
 
 part 'src/color.dart';
 part 'src/geometry.dart';

@@ -4,7 +4,7 @@
 
 // ignore_for_file: parameter_assignments
 
-part of pure_dart_ui;
+part of '../pure_dart_ui.dart';
 
 /// Linearly interpolate between two numbers, `a` and `b`, by an extrapolation
 /// factor `t`.

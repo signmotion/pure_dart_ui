@@ -2,7 +2,7 @@
 /// ! Reason:
 /// ! Remove dependencies on Flutter for projects where pure Dart is required.
 
-part of pure_dart_ui;
+part of '../pure_dart_ui.dart';
 
 // ignore_for_file: avoid_equals_and_hash_code_on_mutable_classes
 // ignore_for_file: comment_references
@@ -177,7 +177,7 @@ class Color {
     if (component <= 0.03928) {
       return component / 12.92;
     }
-    return pow((component + 0.055) / 1.055, 2.4) as double;
+    return math.pow((component + 0.055) / 1.055, 2.4) as double;
   }
 
   /// Returns a brightness value between 0 for darkest and 1 for lightest.

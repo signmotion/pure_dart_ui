@@ -2,7 +2,7 @@
 /// ! Reason:
 /// ! Remove dependencies on Flutter for projects where pure Dart is required.
 
-part of pure_dart_ui;
+part of '../pure_dart_ui.dart';
 
 // ignore_for_file: avoid_equals_and_hash_code_on_mutable_classes
 // ignore_for_file: comment_references
@@ -128,7 +128,8 @@ class Offset extends OffsetBase {
   ///
   /// The distance can be omitted, to create a unit vector (distance = 1.0).
   factory Offset.fromDirection(double direction, [double distance = 1.0]) {
-    return Offset(distance * cos(direction), distance * sin(direction));
+    return Offset(
+        distance * math.cos(direction), distance * math.sin(direction));
   }
 
   /// The x component of the offset.
@@ -145,7 +146,7 @@ class Offset extends OffsetBase {
   ///
   /// If you need this value to compare it to another [Offset]'s distance,
   /// consider using [distanceSquared] instead, since it is cheaper to compute.
-  double get distance => sqrt(dx * dx + dy * dy);
+  double get distance => math.sqrt(dx * dx + dy * dy);
 
   /// The square of the magnitude of the offset.
   ///
@@ -179,7 +180,7 @@ class Offset extends OffsetBase {
   ///
   ///  * [distance], to compute the magnitude of the vector.
   ///  * [Canvas.rotate], which uses the same convention for its angle.
-  double get direction => atan2(dy, dx);
+  double get direction => math.atan2(dy, dx);
 
   /// An offset with zero magnitude.
   ///
@@ -498,10 +499,10 @@ class Size extends OffsetBase {
   Size operator %(double operand) => Size(width % operand, height % operand);
 
   /// The lesser of the magnitudes of the [width] and the [height].
-  double get shortestSide => min(width.abs(), height.abs());
+  double get shortestSide => math.min(width.abs(), height.abs());
 
   /// The greater of the magnitudes of the [width] and the [height].
-  double get longestSide => max(width.abs(), height.abs());
+  double get longestSide => math.max(width.abs(), height.abs());
 
   // Convenience methods that do the equivalent of calling the similarly named
   // methods on a Rect constructed from the given origin and this size.
@@ -685,10 +686,10 @@ class Rect {
   /// them as vectors from the origin.
   Rect.fromPoints(Offset a, Offset b)
       : this.fromLTRB(
-          min(a.dx, b.dx),
-          min(a.dy, b.dy),
-          max(a.dx, b.dx),
-          max(a.dy, b.dy),
+          math.min(a.dx, b.dx),
+          math.min(a.dy, b.dy),
+          math.max(a.dx, b.dx),
+          math.max(a.dy, b.dy),
         );
 
   /// The offset of the left edge of this rectangle from the x axis.
@@ -791,10 +792,10 @@ class Rect {
   /// then the resulting Rect will have a negative width or height.
   Rect intersect(Rect other) {
     return Rect.fromLTRB(
-      max(left, other.left),
-      max(top, other.top),
-      min(right, other.right),
-      min(bottom, other.bottom),
+      math.max(left, other.left),
+      math.max(top, other.top),
+      math.min(right, other.right),
+      math.min(bottom, other.bottom),
     );
   }
 
@@ -802,10 +803,10 @@ class Rect {
   /// rectangle and the given rectangle.
   Rect expandToInclude(Rect other) {
     return Rect.fromLTRB(
-      min(left, other.left),
-      min(top, other.top),
-      max(right, other.right),
-      max(bottom, other.bottom),
+      math.min(left, other.left),
+      math.min(top, other.top),
+      math.max(right, other.right),
+      math.max(bottom, other.bottom),
     );
   }
 
@@ -822,11 +823,11 @@ class Rect {
 
   /// The lesser of the magnitudes of the [width] and the [height] of this
   /// rectangle.
-  double get shortestSide => min(width.abs(), height.abs());
+  double get shortestSide => math.min(width.abs(), height.abs());
 
   /// The greater of the magnitudes of the [width] and the [height] of this
   /// rectangle.
-  double get longestSide => max(width.abs(), height.abs());
+  double get longestSide => math.max(width.abs(), height.abs());
 
   /// The offset to the intersection of the top and left edges of this rectangle.
   ///
