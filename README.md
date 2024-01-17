@@ -2,7 +2,7 @@
 
 Some classes from `dart.ui` that run on pure Dart.
 
-![Cover - Pure Dart UI](https://raw.githubusercontent.com/signmotion/pure_dart/master/images/cover.webp)
+![Cover - Pure Dart UI](https://raw.githubusercontent.com/signmotion/pure_dart_ui/master/images/cover.webp)
 
 ## Features
 
