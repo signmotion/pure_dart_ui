@@ -10,15 +10,15 @@ Eliminates the error _"Dart library 'dart:ui' is not available on this platform"
 
 ### Classes independed of the Flutter SDK
 
-- Color
-- Offset
-- Rect
-- Size
+- `Color`
+- `Offset`
+- `Rect`
+- `Size`
 
 ### Functions independed of the Flutter SDK
 
-- clampDouble
-- lerpDouble()
+- `clampDouble`
+- `lerpDouble`
 
 ## Usage
 
@@ -31,6 +31,12 @@ import 'package:pure_dart_ui/pure_dart_ui.dart';
 Use the classes and functions in this package same way you used `Flutter dart:ui`.
 
 You can create your own application with [dart:ui](https://api.flutter.dev/flutter/dart-ui/dart-ui-library.html) based on a pure Dart, without depending on the Flutter SDK.
+
+### Use `Color`
+
+```dart
+const color = Color(0xFFAABBCC);
+```
 
 ## License
 
