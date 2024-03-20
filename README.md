@@ -2,9 +2,14 @@
 
 ![Cover - Pure Dart UI](https://raw.githubusercontent.com/signmotion/pure_dart_ui/master/images/cover.webp)
 
-The classes from `dart.ui` that run on pure Dart.
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Pub Package](https://img.shields.io/badge/doc-pure_dart_ui-blue)](https://pub.dartlang.org/packages/pure_dart_ui)
+[![Build Status](https://github.com/signmotion/pure_dart_ui/actions/workflows/dart-ci.yml/badge.svg)](https://github.com/signmotion/pure_dart_ui/actions/workflows/dart-ci.yml)
+[![Publisher](https://img.shields.io/pub/publisher/pure_dart_ui)](https://pub.dev/publishers/syrokomskyi.com)
 
+The classes from `dart.ui` that run on pure Dart.
 Eliminates the error _"Dart library 'dart:ui' is not available on this platform"_.
+Feel free to use it in your awesome project.
 
 ## Features
 
@@ -38,6 +43,13 @@ You can create your own application with [dart:ui](https://api.flutter.dev/flutt
 const color = Color(0xFFAABBCC);
 ```
 
-## License
+## Welcome
 
-[MIT](LICENSE)
+Requests and suggestions are warmly welcome.
+
+This package is open-source, stable and well-tested. Development happens on
+[GitHub](https://github.com/signmotion/pure_dart_ui). Feel free to report issues
+or create a pull-request there.
+
+General questions are best asked on
+[StackOverflow](https://stackoverflow.com/questions/tagged/pure_dart_ui).
