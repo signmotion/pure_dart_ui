@@ -3,6 +3,12 @@
 All notable changes to the project `PureDartUI` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.5
+
+- Provided CI.
+- Enhanced `README`.
+- Added `README` with resources to the example folder.
+
 ## 0.1.4
 
 - Renamed the example file.
