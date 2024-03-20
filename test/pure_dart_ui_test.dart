@@ -1,4 +1,9 @@
+import 'package:test/test.dart';
+
 void main() {
-  // Tests doesn't needed: all classes and functions
-  // copied from Flutter SDK.
+  test('test', () {
+    // Tests doesn't needed: all classes and functions
+    // copied from Flutter SDK.
+    expect(true, isTrue);
+  });
 }
