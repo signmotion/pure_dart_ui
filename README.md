@@ -66,7 +66,7 @@ with the line above in the desired 3rd-party package.
 
 Use the classes and functions in this package same way you used `Flutter dart:ui`.
 
-You can create your own application or use a 3rd-party package with [dart:ui](https://api.flutter.dev/flutter/dart-ui/dart-ui-library.html) based on a pure Dart, without depending on the Flutter SDK.
+In other words, you can create your own application or use a 3rd-party package with [dart:ui](https://api.flutter.dev/flutter/dart-ui/dart-ui-library.html) based on a pure Dart, without depending on the Flutter SDK.
 
 ### Use `Color`
 
