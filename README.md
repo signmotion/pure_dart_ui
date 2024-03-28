@@ -71,7 +71,7 @@ In other words, you can create your own application or use a 3rd-party package w
 ### Use `Color`
 
 ```dart
-const color = Color(0xFFAABBCC);
+const color = Color(0xffa1b2c3);
 ```
 
 ## Welcome to Inspiration
