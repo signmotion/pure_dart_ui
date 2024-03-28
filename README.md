@@ -101,4 +101,4 @@ And here is a curated list of how you can help:
 - Report bugs and scenarios that are difficult to implement.
 - Implement new features by making a pull-request (look below).
 
-Created [with ❤️](https://syrokomskyi.com)
+Copied [with ❤️](https://syrokomskyi.com)
