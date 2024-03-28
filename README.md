@@ -14,7 +14,7 @@
 
 Classes from `dart.ui` that run on pure Dart.
 Eliminates the error _"Dart library 'dart:ui' is not available on this platform"_.
-Feel free to use it in your awesome project.
+Feel free to use it in your awesome project or to quickly run a 3rd-party package with Flutter dependencies on the server side or CLI.
 
 | Android | iOS | Linux | MacOS | Web | Windows |              |
 | :-----: | :-: | :---: | :---: | :-: | :-----: | :----------- |
@@ -28,7 +28,7 @@ Share some ❤️ and star repo to support the project.
 
 ## Motivation
 
-Sometimes we want to use nice packages from pub.dev on the server side or CLI.
+Sometimes we want to use nice packages from pub.dev on the CLI or server side.
 But (sometimes) the needed package has dependencies on Flutter...
 
 I created `pure_dart_ui` to address this injustice in a single line (see `Usage` section below).
