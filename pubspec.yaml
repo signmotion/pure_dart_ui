@@ -1,7 +1,7 @@
 name: pure_dart_ui
-description: The classes from `dart.ui` that run on pure Dart without depending on the Flutter SDK.
+description: >-
+  The classes from `dart.ui` that run on pure Dart with no dependency on the Flutter SDK.
 repository: https://github.com/signmotion/pure_dart_ui.git
-
 topics:
   - pure-dart
   - ui
@@ -14,7 +14,7 @@ topics:
 # You can calculate the number version code by this formula:
 #   code = m[A]jor * 100 * 100 + m[I]nor * 100 + [P]atch
 # Otherwise: +AAIIPP
-version: 0.1.5
+version: 0.1.6
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

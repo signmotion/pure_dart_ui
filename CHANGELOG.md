@@ -3,6 +3,10 @@
 All notable changes to the project `PureDartUI` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.6
+
+- Updated badges, added a help for first-time contributors in **Welcome** section, included supported platforms and SDKs, and provided **Motivation** section in`README`.
+
 ## 0.1.5
 
 - Provided CI.
