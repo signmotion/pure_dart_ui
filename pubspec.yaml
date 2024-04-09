@@ -1,6 +1,7 @@
 name: pure_dart_ui
 description: >-
-  The classes from `dart.ui` that run on pure Dart with no dependency on the Flutter SDK.
+  The classes and functions from dart:ui that works on all platforms:
+  Color, Offset, Rect, Size, etc.
 repository: https://github.com/signmotion/pure_dart_ui.git
 topics:
   - pure-dart
