@@ -3,28 +3,28 @@
 ![Cover - Pure Dart UI](https://raw.githubusercontent.com/signmotion/pure_dart_ui/master/images/cover.webp)
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Pub Package](https://img.shields.io/pub/v/pure_dart_ui.svg?logo=dart&logoColor=00b9fc&color=blue)](https://pub.dartlang.org/packages/pure_dart_ui)
-[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui)
-[![Publisher](https://img.shields.io/pub/publisher/pure_dart_ui)](https://pub.dev/publishers/syrokomskyi.com)
+[![Pub Package](https://img.shields.io/pub/v/id_gen.svg?logo=dart&logoColor=00b9fc&color=blue)](https://pub.dartlang.org/packages/id_gen)
+[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/id_gen?logo=github&logoColor=white)](https://github.com/signmotion/id_gen)
+[![Publisher](https://img.shields.io/pub/publisher/id_gen)](https://pub.dev/publishers/syrokomskyi.com)
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/pure_dart_ui/dart-ci.yml?logo=github-actions&logoColor=white)](https://github.com/signmotion/pure_dart_ui/actions)
-[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui/pulls)
-[![Issues](https://img.shields.io/github/issues/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui/issues)
-[![Pub Score](https://img.shields.io/pub/points/pure_dart_ui?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/pure_dart_ui/score)
+![SDK version](https://badgen.net/pub/sdk-version/id_gen)
+![Supported platforms](https://badgen.net/pub/flutter-platform/id_gen)
+![Supported SDKs](https://badgen.net/pub/dart-platform/id_gen)
 
-Classes from `dart.ui` that run on pure Dart.
+[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/id_gen/dart-ci.yml?logo=github-actions&logoColor=white)](https://github.com/signmotion/id_gen/actions)
+[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/id_gen?logo=github&logoColor=white)](https://github.com/signmotion/id_gen/pulls)
+[![Issues](https://img.shields.io/github/issues/signmotion/id_gen?logo=github&logoColor=white)](https://github.com/signmotion/id_gen/issues)
+[![Pub Score](https://img.shields.io/pub/points/id_gen?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/id_gen/score)
+
+Classes from `dart:ui` that run on pure Dart.
 Eliminates the error _"Dart library 'dart:ui' is not available on this platform"_.
 Feel free to use it in your awesome project or to quickly run a 3rd-party package with Flutter dependencies on the server side or CLI.
 
-| Android | iOS | Linux | MacOS | Web | Windows |              |
-| :-----: | :-: | :---: | :---: | :-: | :-----: | :----------- |
-|   ✅    | ✅  |  ✅   |  ✅   | ✅  |   ✅    | **platform** |
-
-| Dart | Flutter |         |
-| :--: | :-----: | :------ |
-|  ✅  |   ✅    | **SDK** |
+[![CodeFactor](https://codefactor.io/repository/github/signmotion/id_gen/badge)](https://codefactor.io/repository/github/signmotion/id_gen)
 
 Share some ❤️ and star repo to support the project.
+
+_If you write an article about **IdGen** or any of [these](https://pub.dev/packages?q=publisher%3Asyrokomskyi.com&sort=updated) packages, let me know and I'll post the URL of the article in the **README** 🤝_
 
 ## Motivation
 
