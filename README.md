@@ -81,6 +81,10 @@ const color = Color(0xffa1b2c3);
 - [universal_html](https://pub.dev/packages/universal_html)
   A cross-platform `dart:html`.
 
+## 👁️What's New
+
+Look at [changelog](https://pub.dev/packages/id_gen/changelog).
+
 ## Welcome to Inspiration
 
 Requests and suggestions are warmly welcome.
