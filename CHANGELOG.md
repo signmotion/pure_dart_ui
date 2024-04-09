@@ -3,6 +3,14 @@
 All notable changes to the project `PureDartUI` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.8
+
+- Added a link to [CodeTriangle](https://codetriage.com) in `README`.
+- Provided CodeFactor badge in `README`.
+- Added emojis to **Usage** and **Welcome** sections in `README`.
+- Changed a representation of supported platforms and SDKs in `README`.
+- Upgraded dependencies.
+
 ## 0.1.7
 
 - Updated `README`.
