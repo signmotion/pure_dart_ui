@@ -3,6 +3,11 @@
 All notable changes to the project `PureDartUI` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.9
+
+- Enhanced `README`: added an opening speech in Welcome section, What's New section, shorted sentences, replaced badges with supported platforms to <https://badgen.net/pub>, etc.
+- Upgraded dependencies.
+
 ## 0.1.8
 
 - Added a link to [CodeTriangle](https://codetriage.com) in `README`.
