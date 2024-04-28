@@ -27,14 +27,14 @@ Share some ❤️ and star repo to support the project.
 
 _If you write an article about **PureDartUi** or any of [these](https://pub.dev/packages?q=publisher%3Asyrokomskyi.com&sort=updated) packages, let me know and I'll post the URL of the article in the **README**_ 🤝
 
-## Motivation
+## 🔥 Motivation
 
 Sometimes we want to use nice packages from pub.dev on the CLI or server side.
 But (sometimes) the needed package has dependencies on Flutter...
 
 I created `pure_dart_ui` to address this injustice in a single line (see `Usage` section below).
 
-## Features
+## 🌟 Features
 
 ### Classes independed of the Flutter SDK
 
@@ -75,7 +75,7 @@ In other words, you can create your own application or use a 3rd-party package w
 const color = Color(0xffa1b2c3);
 ```
 
-## Similar Projects
+## 🔗 Similar Projects
 
 - [universal_io](https://pub.dev/packages/universal_io)
   A cross-platform `dart:io`.
