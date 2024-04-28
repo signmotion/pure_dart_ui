@@ -48,7 +48,7 @@ I created `pure_dart_ui` to address this injustice in a single line (see `Usage`
 - `clampDouble`
 - `lerpDouble`
 
-## 🚀Usage
+## 🚀 Usage
 
 Add the package `pure_dart_ui` to `pubspec.yaml` and import the library:
 
@@ -82,11 +82,11 @@ const color = Color(0xffa1b2c3);
 - [universal_html](https://pub.dev/packages/universal_html)
   A cross-platform `dart:html`.
 
-## 👁️What's New
+## ✨ What's New
 
 Look at [changelog](https://pub.dev/packages/pure_dart_ui/changelog).
 
-## 🙋‍♀️🙋‍♂️Welcome
+## 👋 Welcome
 
 If you encounter any problems, feel free to [open an issue](https://github.com/signmotion/pure_dart_ui/issues). If you feel the package is missing a feature, please [raise a ticket](https://github.com/signmotion/pure_dart_ui/issues) on Github and I'll look into it. Requests and suggestions are warmly welcome. Danke!
 
@@ -116,7 +116,7 @@ And here is a curated list of how you can help:
 - Report bugs and scenarios that are difficult to implement.
 - Implement new features by making a pull-request.
 
-## 🕧TODO (perhaps)
+## ✅ TODO (perhaps)
 
 Once you start using the **PureDartUi**, it will become easy to choose the functionality to contribute. But if you already get everything you need from this package but have some free time, let me write here what I have planned:
 
