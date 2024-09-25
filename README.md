@@ -1,29 +1,29 @@
 # Pure Dart UI
 
+![SDK version](https://badgen.net/pub/sdk-version/pure_dart_ui?style=for-the-badge)
+![Supported platforms](https://badgen.net/pub/flutter-platform/pure_dart_ui?style=for-the-badge)
+![Supported SDKs](https://badgen.net/pub/dart-platform/pure_dart_ui?style=for-the-badge)
+
 ![Cover - Pure Dart UI](https://raw.githubusercontent.com/signmotion/pure_dart_ui/master/images/cover.webp)
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Pub Package](https://img.shields.io/pub/v/pure_dart_ui.svg?logo=dart&logoColor=00b9fc&color=blue)](https://pub.dartlang.org/packages/pure_dart_ui)
-[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui)
-[![Publisher](https://img.shields.io/pub/publisher/pure_dart_ui)](https://pub.dev/publishers/syrokomskyi.com)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Pub Package](https://img.shields.io/pub/v/pure_dart_ui.svg?logo=dart&logoColor=00b9fc&color=blue&style=for-the-badge)](https://pub.dartlang.org/packages/pure_dart_ui)
+[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/pure_dart_ui?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/pure_dart_ui)
+[![Publisher](https://img.shields.io/pub/publisher/pure_dart_ui?style=for-the-badge)](https://pub.dev/publishers/syrokomskyi.com)
 
-![SDK version](https://badgen.net/pub/sdk-version/pure_dart_ui)
-![Supported platforms](https://badgen.net/pub/flutter-platform/pure_dart_ui)
-![Supported SDKs](https://badgen.net/pub/dart-platform/pure_dart_ui)
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/pure_dart_ui/dart-ci.yml?logo=github-actions&logoColor=white)](https://github.com/signmotion/pure_dart_ui/actions)
-[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui/pulls)
-[![Issues](https://img.shields.io/github/issues/signmotion/pure_dart_ui?logo=github&logoColor=white)](https://github.com/signmotion/pure_dart_ui/issues)
-[![Pub Score](https://img.shields.io/pub/points/pure_dart_ui?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/pure_dart_ui/score)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/pure_dart_ui/dart-ci.yml?logo=github-actions&logoColor=white&style=for-the-badge)](https://github.com/signmotion/pure_dart_ui/actions)
+[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/pure_dart_ui?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/pure_dart_ui/pulls)
+[![Issues](https://img.shields.io/github/issues/signmotion/pure_dart_ui?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/pure_dart_ui/issues)
+[![Pub Score](https://img.shields.io/pub/points/pure_dart_ui?logo=dart&logoColor=00b9fc&style=for-the-badge)](https://pub.dev/packages/pure_dart_ui/score)
 
 Classes from `dart:ui` that run on pure Dart.
 Eliminates the error _"Dart library 'dart:ui' is not available on this platform"_.
 You can now quickly run a third-party package with Flutter dependencies on the server side or CLI.
 Feel free to use it in your awesome project.
 
-[![CodeFactor](https://codefactor.io/repository/github/signmotion/pure_dart_ui/badge)](https://codefactor.io/repository/github/signmotion/pure_dart_ui)
+[![CodeFactor](https://codefactor.io/repository/github/signmotion/pure_dart_ui/badge?style=for-the-badge)](https://codefactor.io/repository/github/signmotion/pure_dart_ui)
 
-Share some ❤️ and star repo to support the project.
+Share some ❤️ and star repo to support the [Pure Dart UI](https://github.com/signmotion/pure_dart_ui).
 
 _If you write an article about **PureDartUi** or any of [these](https://pub.dev/packages?q=publisher%3Asyrokomskyi.com&sort=updated) packages, let me know and I'll post the URL of the article in the **README**_ 🤝
 
@@ -130,4 +130,8 @@ Once you start using the **PureDartUi**, it will become easy to choose the funct
 
 It's just a habit of mine: writing down ideas that come to mind while working on a project. I confess that I rarely return to these notes. But now, hopefully, even if you don't have an idea yet, the above notes will help you choose the suitable "feature" and become a contributor to the open-source community.
 
-Created [with ❤️](https://syrokomskyi.com)
+Ready [for 🪙](https://webduet.de "The Modern Planet-Scale Site for Your Ambitions")
+
+Created [with ❤️](https://syrokomskyi.com "Andrii Syrokomskyi")
+
+[![fresher](https://img.shields.io/badge/maintained%20using-fresher-darkgreen.svg?style=for-the-badge)](https://github.com/signmotion/fresher "Keeps Projects Up to Date")
